@@ -71,6 +71,8 @@ public class MybatisTest {
         user.setUserAddress("北京市顺义区");
         user.setUserSex("男");
         user.setUserSex("女");
+        user.setUserId(12341234);
+        //System.out.put("1234");
         user.setUserBirthday(new Date());
         System.out.println("保存操作之前："+user);
         //5.执行保存方法
